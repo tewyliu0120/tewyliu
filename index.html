@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .bg-color1{background-color: #1BE7FF;}
+        .bg-color2{background-color: #FFBB73;}
+        .bg-color3{background-color: #E4FF1A;}
+        .bg-color4{background-color: #FFB800;}
+    </style>
+</head>
+<body>
+<!--Navigation-->
+    <div class="container-fluid bg-color1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Tewy's World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+<!--Home-->
+    <div class="container-fluid bg-color2 py-5">
+        <img class="rounded-circle mx-auto d-block" src="DSC05058.jpg" alt="" width="400" height="auto">
+        <h2 class="text-center"><font face="Comic Sans MS"><font color="purple">I'm Kelly.</font></font></h2> 
+        <h3 class="text-center"><font face="Comic Sans MS"><font color="blue">Just do it.</font></font></h3>
+    </div>
+<!--About Me-->
+    <div class="container-fluid bg-color3 py-5">
+        <h2 class="text-center"><u><strong><font color="green">About Me</font></strong></u></h2> 
+        <p class="w-50 mx-auto"><font face="Comic Sans MS">I am a sophmore student from department Innovative Information and Technology. </font></p>
+    </div>
+<!-- Contact Me -->
+<div class="container-fluid bg-color4 py-5">
+    <form class="w-50 mx-auto">
+            <!-- name -->
+            <div class="form-group">
+                <input type="text" class="form-control"  placeholder="Name">
+            </div>
+            <!-- e-mail -->
+            <div class="form-group">
+                <input type="e-mail" class="form-control" placeholder="e-mail">
+            </div>
+            <!-- phone -->
+            <div class="form-group">
+                <input type="phone" class="form-control" placeholder="phone">
+            </div>
+            <!-- message -->
+            <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
